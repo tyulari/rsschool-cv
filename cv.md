@@ -16,6 +16,7 @@ I'm 31 years old. I am working a system analytics in a small IT company. I am in
 * Vue.js (Basic)
 * Version control: Git, GitHub
 * Editors: VS Code, WebStorm
+
 ## 5.	Code Example:
 
 **Unique In Order:** Implement the function unique_in_order which takes as argument a sequence and returns a list of items without any elements with the same value next to each other and preserving the original order of elements.
