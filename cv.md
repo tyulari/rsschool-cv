@@ -7,7 +7,7 @@
 
 ## 3.	About Me:
 
-I'm 31 years old. I am working a system analytics in a small IT company. I am interested in web development and try to develop my skills. I hope that this courses will help me to improve my knowledge in this field and find like-minded people.
+I'm 31 years old. I am working as a system analytics in a small IT company. I am interested in web development and I always try to improve my skills. I hope that this courses will help me to improve my knowledge in this field and find like-minded people.
 
 ## 4.	Skills:
 
