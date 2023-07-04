@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="assets/favicon.ico">
 
@@ -24,7 +24,7 @@
                             <a href="#app" class="header__menu-link">About Me</a>
                         </li>
                         <li class="header_menu item">
-                            <a href="#app" class="header__menu-link">Contacts</a>
+                            <a href="#contacts" class="header__menu-link">Contacts</a>
                         </li>
                         <li class="header_menu item">
                             <a href="#skills" class="header__menu-link">Skills</a>
@@ -63,7 +63,7 @@
                                 I am interested in web development and I always try to improve my skills.
                                 I hope that this courses will help me to improve my knowledge in this field and find like-minded people.
                             </p>
-                            <h2 class="item_title">My Contacts</h2>
+                            <h2 class="item_title" id="contacts">My Contacts</h2>
                             <p class="content">
                                 <ul class="content__list">
                                     <li class="content__item">Email: tshnyagina@list.ru</li>
@@ -93,22 +93,24 @@
                     </p>
                     <p>For Example:</p>
                     <p class ="code__example"><code>
-                        uniqueInOrder('AAAABBBCCDAABBB') == ['A', 'B', 'C', 'D', 'A', 'B'] <br>
-                        uniqueInOrder('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D'] <br>
-                        uniqueInOrder([1,2,2,3,3])       == [1,2,3] <br>
+                        uniqueInOrder('AAAABBBCCDAABBB') == ['A', 'B', 'C', 'D', 'A', 'B']<br>
+                        uniqueInOrder('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D']<br>
+                        uniqueInOrder([1,2,2,3,3])       == [1,2,3]<br>
                     </code></p>
                     <p>My Solution:</p>
                     <p class="code__example">
-                        var uniqueInOrder=function(iterable){<br>
-                            let arr = (Array.isArray(iterable)) ? (iterable) : iterable.split('');<br>
-                            return arr.filter((el, index, array) => el != array[index+1]);<br>
-                          }<br>
+                        <code>
+                            var uniqueInOrder=function(iterable){<br>
+                                let arr = (Array.isArray(iterable)) ? (iterable) : iterable.split('');<br>
+                                return arr.filter((el, index, array) => el != array[index+1]);<br>
+                            }<br>
+                        </code>
                     </p>
                     <h2 class="item_title" id="working-experience">Working Experience</h2>
                     <p class="content">
                         <ul class="content__list">
                             <li class="content__item">Freelance</li>
-                            <li class="content__item">“Coca-Cola HBC Russia”, AP OCR Accountant (until 2016)</li>
+                            <li class="content__item">&quot;Coca-Cola HBC Russia&quot;, AP OCR Accountant (until 2016)</li>
                         </ul>
                     </p>
                     <h2 class="item_title" id="projects">Projects</h2>
