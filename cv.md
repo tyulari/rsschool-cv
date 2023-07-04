@@ -1,4 +1,4 @@
-![Image](img/avataaars.png)
+![Image](assets/img/avataaars.png)
 # 1.	Tanya Larina
 ## 2.	My Contacts:
 * Email: tshnyagina@list.ru
