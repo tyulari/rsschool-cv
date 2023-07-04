@@ -4,4 +4,39 @@
 
 html, body {
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    margin: 0px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.header {
+    background: #2f4351;
+    padding: 10px 0;
+}
+
+.header_menu-list{
+    display: flex;/*чтобы в линеечку выстроить*/
+    justify-content: flex-end; /*выравнивание по разным сторонам*/
+    align-items: center; /*выравнивание по вертикали*/
+    list-style-type:  none; /*убрать точки*/
+}
+
+.header__menu-link {
+    margin-left: 32px;/*расстояние между надписями домой особенности преимущества*/
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+    padding: 0 5px;
+    color: #E1E1E1;
+    text-decoration: none;/*убираем подчеркивание*/
+    transition: color 0.15s;
+}
+
+/*хочу, чтобы при наведении на ссылку она меняла цвет*/
+.header__menu-link:hover {
+    color: #65c9ff;
 }
