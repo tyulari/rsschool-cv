@@ -1,1 +1,1 @@
-# rsschool-cv
+https://tyulari.github.io/rsschool-cv/
