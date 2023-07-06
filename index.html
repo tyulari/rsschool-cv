@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="assets/favicon.ico">
 
@@ -64,13 +64,13 @@
                                 I hope that this courses will help me to improve my knowledge in this field and find like-minded people.
                             </p>
                             <h2 class="item_title" id="contacts">My Contacts</h2>
-                            <p class="content">
+                            <div class="content">
                                 <ul class="content__list">
                                     <li class="content__item">Email: tshnyagina@list.ru</li>
                                     <li class="content__item">GitHub: @tyulari</li>
                                     <li class="content__item">Discord: Tanya Larina (@tyulari)</li>
                                 </ul>
-                            </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
             <section class="info">
                 <div class="info__container container">
                     <h2 class="item_title" id="skills">My Skills</h2>
-                    <p class="content">
+                    <div class="content">
                         <ul class="content__list">
                             <li class="content__item">HTML, CSS</li>
                             <li class="content__item">JavaScript (Basic)</li>
@@ -86,7 +86,7 @@
                             <li class="content__item">Version control: Git, GitHub</li>
                             <li class="content__item">Editors: VS Code, WebStorm</li>
                         </ul>
-                    </p>
+                    </div>
                     <h2 class="item_title" id="code-example">Code Example</h2>
                     <p class="content">
                         <b>Unique In Order:</b> Implement the function unique_in_order which takes as argument a sequence and returns a list of items without any elements with the same value next to each other and preserving the original order of elements.
@@ -98,29 +98,29 @@
                         uniqueInOrder([1,2,2,3,3])       == [1,2,3]<br>
                     </code></p>
                     <p>My Solution:</p>
-                    <p class="code__example">
+                    <div class="code__example">
                         <code>
                             var uniqueInOrder=function(iterable){<br>
                                 <span>let arr = (Array.isArray(iterable)) ? (iterable) : iterable.split('');</span><br>
                                 <span>return arr.filter((el, index, array) => el != array[index+1]);</span><br>
                             }<br>
                         </code>
-                    </p>
+                    </div>
                     <h2 class="item_title" id="working-experience">Working Experience</h2>
-                    <p class="content">
+                    <div class="content">
                         <ul class="content__list">
                             <li class="content__item">Freelance</li>
                             <li class="content__item">&quot;Coca-Cola HBC Russia&quot;, AP OCR Accountant (until 2016)</li>
                         </ul>
-                    </p>
+                    </div>
                     <h2 class="item_title" id="projects">Projects</h2>
-                    <p class="content">
+                    <div class="content">
                         <ul class="content__list">
-                            <li class="content__item"><a href="https://tyulari.github.io/rsschool-cv/cv" class="cv_md_link" target="_blank">My first CV (Markdown)</a>
-                            </p></li>
+                            <li class="content__item"><a href="https://tyulari.github.io/rsschool-cv/cv" class="cv_md_link" target="_blank">My first CV (Markdown)</a></li>
                         </ul>
+                    </div>
                     <h2 class="item_title" id="education">Education</h2>
-                    <p class="content">
+                    <div class="content">
                         <ul class="content__list">
                             <li class="content__item">National Research University Higher School of Economics, Faculty of Business Informatics and Applied Mathematics, Bachelor’s degree in Business Informatics</li>
                             <li class="content__item">National Research University Higher School of Economics, Faculty of Economics, pending Master’s degree in Finance</li>
@@ -128,14 +128,14 @@
                             <li class="content__item">JavaScript. Level 8. Vue.js - an open source JavaScript framework for developing web application (<a href="www.specialist.ru">wwww.specialist.ru</a>, 2022)</li>
                             <li class="content__item">RS School, JS Course Stage 0 in progress</li>
                         </ul>
-                    </p>
+                    </div>
                     <h2 class="item_title" id="languages">Languages</h2>
-                    <p class="content">
+                    <div class="content">
                         <ul class="content__list">
                             <li class="content__item">Russian - Native</li>
                             <li class="content__item">English - Upper-Intermediate/B2 (Business English Certificate)</li>
                         </ul>
-                    </p>
+                    </div>
                 </div>
             </section>
         </main>

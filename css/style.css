@@ -11,6 +11,14 @@ html, body {
     line-height: 1.5;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 0px;
+}
+
 h2{
     margin-top: -156px;
     padding-top: 156px;
